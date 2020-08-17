@@ -1,0 +1,42 @@
+body{
+  overflow: hidden;
+}
+.block{
+  width: 100%;
+  height: 400px;
+}
+.box-1{
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.box-2{
+  width: 1000px;
+  height: 200px;
+  margin: 10px;
+}
+.block-img-1{
+  background-image: url("../img/backgraund.jpg");
+  background-color: #3d3d3d;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+}
+.block-img-2{
+  background-image: url("../img/backgraund-second.jpg");
+  background-color: #3d3d3d;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+}
+.overfllow-y-scroll{
+  height: 600px;
+  white-space: nowrap;
+  overflow-y:scroll;
+  overflow-x:hidden;
+}
+.text-secondary{
+  color: #a93539!important;
+}
